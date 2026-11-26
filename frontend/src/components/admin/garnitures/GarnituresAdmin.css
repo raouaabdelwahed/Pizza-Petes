@@ -1,0 +1,184 @@
+
+.garnitures-admin {
+  padding: 30px;
+  color: #252525;
+}
+
+.garnitures-admin-header {
+  margin-bottom: 25px;
+}
+
+.garnitures-admin-subtitle {
+  color: #e85d04;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.garnitures-admin-header h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+
+.garnitures-admin-header p {
+  color: #777;
+}
+
+.garnitures-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.garnitures-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.garnitures-form-group label {
+  font-weight: 600;
+}
+
+.garnitures-form-group input,
+.garnitures-form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  font-family: inherit;
+  resize: vertical;
+  transition: border 0.2s;
+}
+
+.garnitures-form-group input:focus,
+.garnitures-form-group textarea:focus {
+  border-color: #e85d04;
+}
+
+.garnitures-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.garnitures-save-button,
+.garnitures-cancel-button,
+.garnitures-edit-button,
+.garnitures-delete-button {
+  border: none;
+  padding: 11px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.garnitures-save-button {
+  background: #e85d04;
+  color: white;
+}
+
+.garnitures-save-button:hover {
+  background: #c94b00;
+}
+
+.garnitures-save-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.garnitures-cancel-button {
+  background: #eee;
+  color: #333;
+}
+
+.garnitures-cancel-button:hover {
+  background: #ddd;
+}
+
+.garnitures-message {
+  padding: 12px;
+  background: #fff4e8;
+  color: #a34600;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.garnitures-table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.garnitures-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+
+.garnitures-table th,
+.garnitures-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.garnitures-table th {
+  background: #f7f7f7;
+  font-weight: 700;
+}
+
+.garnitures-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.garnitures-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.garnitures-edit-button {
+  background: #2878d0;
+  color: white;
+}
+
+.garnitures-edit-button:hover {
+  background: #1d5ea6;
+}
+
+.garnitures-delete-button {
+  background: #dc3545;
+  color: white;
+}
+
+.garnitures-delete-button:hover {
+  background: #b52a37;
+}
+
+@media (max-width: 768px) {
+  .garnitures-admin {
+    padding: 15px;
+  }
+
+  .garnitures-form {
+    padding: 18px;
+  }
+
+  .garnitures-admin-header h2 {
+    font-size: 23px;
+  }
+
+  .garnitures-table th,
+  .garnitures-table td {
+    padding: 10px;
+  }
+}

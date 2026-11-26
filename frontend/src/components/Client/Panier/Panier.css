@@ -1,0 +1,158 @@
+
+.panier-section {
+  padding: 70px 8%;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.panier-section h2 {
+  font-size: 36px;
+  color: #c62828;
+  margin-bottom: 25px;
+}
+
+.panier-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 25px;
+  margin: 18px 0;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 12px #00000010;
+}
+
+.panier-item h3 {
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.panier-item p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.panier-item strong {
+  color: #c62828;
+  font-size: 20px;
+}
+
+.panier-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.panier-actions button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 14px;
+  background: #c62828;
+  color: white;
+  cursor: pointer;
+}
+
+.panier-actions button:hover {
+  background: #991b1b;
+}
+
+.panier-actions span {
+  font-weight: bold;
+  color: #222;
+}
+
+.panier-total {
+  margin-top: 25px;
+  padding: 22px;
+  background: white;
+  color: #c62828;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 26px;
+}
+
+.commande-form {
+  margin-top: 35px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000010;
+}
+
+.commande-form h3 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.commande-form input,
+.commande-form textarea {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  color: #222;
+  font-size: 16px;
+}
+
+.commande-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.commande-form button {
+  background: #c62828;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.commande-form button:hover {
+  background: #991b1b;
+}
+
+.commande-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #16803c;
+  margin-top: 15px;
+}
+
+.error-message {
+  color: #c62828;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .panier-section {
+    padding: 45px 5%;
+  }
+
+  .panier-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .panier-actions {
+    flex-wrap: wrap;
+  }
+
+  .panier-total {
+    text-align: left;
+  }
+
+  .commande-form {
+    padding: 20px;
+  }
+}

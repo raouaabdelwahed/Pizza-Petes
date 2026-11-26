@@ -1,0 +1,47 @@
+
+.pates-section {
+  padding: 70px 8%;
+  text-align: center;
+  background: #fff;
+  color: #222;
+}
+
+.pates-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.pates-intro {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.pates-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.pate-card {
+  width: 240px;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.pate-card:hover {
+  transform: translateY(-5px);
+}
+
+.pate-card h3 {
+  color: #e63946;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.pate-card p {
+  color: #666;
+}

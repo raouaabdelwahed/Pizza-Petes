@@ -1,0 +1,184 @@
+
+.pates-admin {
+  padding: 30px;
+  color: #252525;
+}
+
+.pates-admin-header {
+  margin-bottom: 25px;
+}
+
+.pates-admin-subtitle {
+  color: #e85d04;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.pates-admin-header h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+
+.pates-admin-header p {
+  color: #777;
+}
+
+.pates-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.pates-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pates-form-group label {
+  font-weight: 600;
+}
+
+.pates-form-group input,
+.pates-form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  font-family: inherit;
+  resize: vertical;
+  transition: border 0.2s;
+}
+
+.pates-form-group input:focus,
+.pates-form-group textarea:focus {
+  border-color: #e85d04;
+}
+
+.pates-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pates-save-button,
+.pates-cancel-button,
+.pates-edit-button,
+.pates-delete-button {
+  border: none;
+  padding: 11px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.pates-save-button {
+  background: #e85d04;
+  color: white;
+}
+
+.pates-save-button:hover {
+  background: #c94b00;
+}
+
+.pates-save-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pates-cancel-button {
+  background: #eee;
+  color: #333;
+}
+
+.pates-cancel-button:hover {
+  background: #ddd;
+}
+
+.pates-message {
+  padding: 12px;
+  background: #fff4e8;
+  color: #a34600;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.pates-table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.pates-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+
+.pates-table th,
+.pates-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.pates-table th {
+  background: #f7f7f7;
+  font-weight: 700;
+}
+
+.pates-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.pates-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pates-edit-button {
+  background: #2878d0;
+  color: white;
+}
+
+.pates-edit-button:hover {
+  background: #1d5ea6;
+}
+
+.pates-delete-button {
+  background: #dc3545;
+  color: white;
+}
+
+.pates-delete-button:hover {
+  background: #b52a37;
+}
+
+@media (max-width: 768px) {
+  .pates-admin {
+    padding: 15px;
+  }
+
+  .pates-form {
+    padding: 18px;
+  }
+
+  .pates-admin-header h2 {
+    font-size: 23px;
+  }
+
+  .pates-table th,
+  .pates-table td {
+    padding: 10px;
+  }
+}

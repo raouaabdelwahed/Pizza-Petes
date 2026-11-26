@@ -1,0 +1,47 @@
+
+.garnitures-section {
+  padding: 70px 8%;
+  text-align: center;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.garnitures-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.garnitures-intro {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.garnitures-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.garniture-card {
+  width: 240px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.garniture-card:hover {
+  transform: translateY(-5px);
+}
+
+.garniture-card h3 {
+  color: #e63946;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.garniture-card p {
+  color: #666;
+}

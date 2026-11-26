@@ -1,0 +1,47 @@
+
+.tailles-section {
+  padding: 70px 8%;
+  text-align: center;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.tailles-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.tailles-intro {
+  margin-bottom: 35px;
+  color: #666;
+}
+
+.tailles-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.taille-card {
+  background: white;
+  padding: 30px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.taille-card:hover {
+  transform: translateY(-5px);
+}
+
+.taille-card h3 {
+  color: #e63946;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.taille-card p {
+  font-size: 18px;
+}

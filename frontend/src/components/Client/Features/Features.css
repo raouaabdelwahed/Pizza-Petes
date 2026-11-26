@@ -1,0 +1,50 @@
+
+.features-section {
+  padding: 70px 8%;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.features-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 230px;
+  padding: 30px;
+  background: #1c1c1c;
+  border-radius: 12px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: #e63946;
+}
+
+.feature-card h3 {
+  color: #e63946;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .feature-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+
+.prix-pizza-section {
+  padding: 70px 8%;
+  text-align: center;
+  background: white;
+  color: #222;
+}
+
+.prix-pizza-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.prix-pizza-intro {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.prix-pizza-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.prix-pizza-card {
+  width: 220px;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.prix-pizza-card:hover {
+  transform: translateY(-5px);
+}
+
+.prix-pizza-card h3 {
+  color: #e63946;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.prix-pizza-card p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.prix-pizza-card strong {
+  font-size: 20px;
+  color: #222;
+}

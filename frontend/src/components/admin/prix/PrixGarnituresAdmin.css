@@ -1,0 +1,108 @@
+
+.prix-garnitures-admin {
+  padding: 30px;
+  margin: 25px 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.prix-garnitures-admin h2 {
+  color: #b91c1c;
+  margin-bottom: 25px;
+}
+
+.prix-garnitures-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.prix-garnitures-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.prix-garnitures-form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.prix-garnitures-form input,
+.prix-garnitures-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.prix-garnitures-actions-form {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+
+.prix-garnitures-actions-form button {
+  padding: 12px 18px;
+  background: #b91c1c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.prix-garnitures-actions-form button:hover {
+  background: #991b1b;
+}
+
+.prix-garnitures-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prix-garnitures-table th,
+.prix-garnitures-table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.prix-garnitures-table th {
+  background: #1f1f1f;
+  color: white;
+}
+
+.garniture-prix-modifier,
+.garniture-prix-supprimer {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.garniture-prix-modifier {
+  background: #2563eb;
+}
+
+.garniture-prix-modifier:hover {
+  background: #1d4ed8;
+}
+
+.garniture-prix-supprimer {
+  background: #dc2626;
+}
+
+.garniture-prix-supprimer:hover {
+  background: #b91c1c;
+}
+
+@media (max-width: 700px) {
+  .prix-garnitures-table th,
+  .prix-garnitures-table td {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
